@@ -1,0 +1,11 @@
+1. Paigaldamine
+
+apt-get install git
+
+2. Seadistamine
+
+git config --global user.name "Risto Mitt"
+git config --global user.email mitt.risto@khk.ee
+git config --global core.editor nano
+
+
