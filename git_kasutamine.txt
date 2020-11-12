@@ -19,3 +19,14 @@ git config --global core.editor nano
 	c. Muudatuste ajaloo jälgimine
 	git log
 	git show commit_hash [pikk jura] 
+4. Remote github.com
+
+a. Loo github.com repositoorium
+b. Tekita ühendus github repositooriumiga
+
+git remote add origin https://github.com/mittristo/skripti_alused.git
+
+c. Iga muutatus lükka githubi
+git push -u origin master
+
+
