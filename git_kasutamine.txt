@@ -8,4 +8,14 @@ git config --global user.name "Risto Mitt"
 git config --global user.email mitt.risto@khk.ee
 git config --global core.editor nano
 
+3. Kasutamine
+	a. Alguses ainult 1 x kataloogis, kus planeerime skripti hoida ja muuta me teeme git init
 
+	b. Iga failiga teeme - eeldusega et fail on olemas [ja lisatud, salvestatud mingi sisu]
+	git status
+	git add [failinimi]
+	git commit -m "muudatuste kirjeldus"
+	
+	c. Muudatuste ajaloo jälgimine
+	git log
+	git show commit_hash [pikk jura] 
