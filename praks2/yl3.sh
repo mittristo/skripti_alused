@@ -6,5 +6,4 @@ echo  "Kell on praegu "$tunnid" tundi ja "$min " minutit"
 kuu=`date +%B`
 aasta=`date +%Y`
 echo  $kuu", "$aasta
-cal=`cal`
-echo $cal
+cal
